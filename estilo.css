@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Futer';
+    src: url(/fuentes/pdark.ttf)
+}
+
+@font-face {
+    font-family: 'parraf';
+    src: url(/fuentes/Michroma.ttf);
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url(/fuentes/OrbitronLight.ttf);
+}
+
+@font-face {
+    font-family: 'Tribe';
+    src: url(/fuentes/urbantribE.ttf);
+}
+
+
+.cuerpo {
+background-color: #000000;
+margin-top: 349px;
+border-radius: 20px;
+border-style: ridge;
+border-color: chartreuse;
+margin-left: 20px;
+margin-right: 400px;
+
+}
+
+.tentrada {
+    margin-left: 15px;
+    color: white;
+    font-family: parraf;
+}
+
+.entrada {
+    margin-left: 25px;
+    color: white;
+    margin-top: 0px;
+    font-family: parraf;
+}
+
+header {
+    
+    height: 300px;
+    position: absolute;
+    background-image: url(/imagenes/logo-1330779.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-position: 100% 65%;
+    background-size: 150%;
+    width: 505.8mm;
+    left: 1.1mm;
+    top: 1.5mm;
+}
+
+.logo {
+    position: absolute;
+    left: 7%;
+    bottom: -27mm;
+}
+
+header div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header div h1 {
+    font-size: 120px;
+}
+
+body {
+    background-color: #303234;
+}
+
+.Título {
+    color: white;
+    font-family: Tribe;
+    
+    
+}
+
+#header-span-1 {
+    color: #00D1CA;
+    font-family: Tribe;
+    text-shadow: 3px 3px #000000;
+    
+}
+#header-span-2 {
+    color:#FF00CA;
+    font-family: Tribe;
+    text-shadow: 3px 3px #000000;
+}
+
+#header-span-3 {
+    color:#900000;
+    font-family: Tribe;
+    text-shadow: 3px 3px #000000;
+}
+
